@@ -11,13 +11,13 @@ export default function ChatPlaceholder({}: Props) {
       <div className="max-w-3xl p-4 text-center text-primary">
         <h1 className="text-4xl font-medium">ikigAI Labs XYZ</h1>
         <p className="mt-4 text-lg">
-          Experimental Edition.
+          Experimental Edition
         </p>
         <div className="m-4 flex items-center justify-center">
           <AddTokenModal />
         </div>
         <p className="mt-4 text-lg">
-          Explore the{" "}
+          Explore {" "}
           <Link
             href="/playground"
             className="font-medium text-primary hover:underline"
