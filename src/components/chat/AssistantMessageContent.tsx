@@ -10,8 +10,8 @@ import scss from "react-syntax-highlighter/dist/cjs/languages/prism/scss";
 import bash from "react-syntax-highlighter/dist/cjs/languages/prism/bash";
 import markdown from "react-syntax-highlighter/dist/cjs/languages/prism/markdown";
 import python from "react-syntax-highlighter/dist/cjs/languages/prism/python";
-import cpp from "react-syntax-highlighter/dist/cjs/languages/prism/cpp";
 import json from "react-syntax-highlighter/dist/cjs/languages/prism/json";
+import clojure from "react-syntax-highlighter/dist/esm/languages/prism/clojure"
 import MathJax from "react-mathjax";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
@@ -24,8 +24,8 @@ SyntaxHighlighter.registerLanguage("scss", scss);
 SyntaxHighlighter.registerLanguage("bash", bash);
 SyntaxHighlighter.registerLanguage("markdown", markdown);
 SyntaxHighlighter.registerLanguage("python", python);
-SyntaxHighlighter.registerLanguage("cpp", cpp);
 SyntaxHighlighter.registerLanguage("json", json);
+SyntaxHighlighter.registerLanguage("clojure", clojure);
 SyntaxHighlighter.registerLanguage("json", json);
 
 const syntaxTheme = oneDark;
