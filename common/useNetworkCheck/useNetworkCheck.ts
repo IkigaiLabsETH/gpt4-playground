@@ -2,7 +2,7 @@ import { useChain, useConnectionStatus, useSwitchChain } from '@thirdweb-dev/rea
 import { match } from 'ts-pattern'
 import { Network } from '../types'
 import { useDispatch } from 'react-redux'
-import { getChainIdFromNetwork } from '../utils'
+import { getChainIdFromNetwork } from '../utils/'
 
 export const useNetworkCheck = (requiredNetwork: Network) => {
   const { slug } = useChain()
