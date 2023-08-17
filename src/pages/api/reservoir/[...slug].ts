@@ -1,6 +1,6 @@
 import { setParams } from '@reservoir0x/reservoir-sdk'
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { defaultChain, supportedChains, wrappedContracts } from '../../../common/config'
+import { defaultChain, supportedChains, wrappedContracts } from '../../common/config'
 import { arbitrum, goerli, mainnet, optimism } from 'wagmi/chains'
 import { zeroAddress } from 'viem'
 
