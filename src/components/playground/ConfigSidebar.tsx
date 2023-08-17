@@ -2,7 +2,7 @@ import { useOpenAI } from "@/context/OpenAIProvider";
 import React from "react";
 import Dropdown from "../input/Dropdown";
 import Slider from "../input/Slider";
-import { OpenAIChatModels, OpenAIConfig } from "@/utils/OpenAI";
+import { OpenAIChatModels, OpenAIConfig } from "src/utils/OpenAI";
 import useModels from "../hooks/useModels";
 
 type Props = {};

@@ -7,7 +7,7 @@ import {
   MdDelete,
   MdDriveFileRenameOutline,
 } from "react-icons/md";
-import { Conversation as ConversationI } from "@/utils/History";
+import { Conversation as ConversationI } from "src/utils/History";
 import { useOpenAI } from "@/context/OpenAIProvider";
 
 type Props = {

@@ -1,5 +1,5 @@
 import { useOpenAI } from "@/context/OpenAIProvider";
-import { OpenAIChatMessage } from "@/utils/OpenAI";
+import { OpenAIChatMessage } from "src/utils/OpenAI";
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { usePlayground } from "@/context/PlaygroundProvider";

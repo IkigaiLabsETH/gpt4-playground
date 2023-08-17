@@ -6,14 +6,14 @@ import {
   History,
   deleteConversationFromHistory,
   updateConversation,
-} from "@/utils/History";
+} from "src/utils/History";
 import {
   defaultConfig,
   OpenAIChatMessage,
   OpenAIConfig,
   OpenAISystemMessage,
   OpenAIChatModels
-} from "@/utils/OpenAI";
+} from "src/utils/OpenAI";
 import React, { PropsWithChildren, useCallback, useEffect } from "react";
 import { useRouter } from "next/router";
 import { useAuth } from "@/context/AuthProvider";

@@ -1,5 +1,5 @@
 import { useOpenAI } from "@/context/OpenAIProvider";
-import { OpenAIChatMessage } from "@/utils/OpenAI";
+import { OpenAIChatMessage } from "src/utils/OpenAI";
 import React from "react";
 import { MdPerson, MdSmartToy } from "react-icons/md";
 import AssistantMessageContent from "./AssistantMessageContent";

@@ -2,7 +2,7 @@ import { useOpenAI } from "@/context/OpenAIProvider";
 import {
   Conversation as ConversationT,
   getConversation,
-} from "@/utils/History";
+} from "src/utils/History";
 
 interface Props {
   id: string;

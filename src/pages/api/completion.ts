@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { defaultConfig, getOpenAICompletion } from "@/utils/OpenAI";
-import { OpenAIRequest } from "@/utils/OpenAI";
+import { defaultConfig, getOpenAICompletion } from "src/utils/OpenAI";
+import { OpenAIRequest } from "src/utils/OpenAI";
 
 export const config = {
   runtime: "edge",

@@ -1,8 +1,12 @@
 # GPT-4.20
 
-Just got your GPT-4 API Key and want to give it a spin? Look not further! This project is mainly targeted to allow you to test out your Open AI API keys. The current OpenAI Playground still only allows 4096 tokens for 8k or 32k models like GPT-4 and if you would like to test out you key in a rendered chat environment you would have to purchase ChatGPT Plus. This project should fix both of those issues without comprimising on either experience. The project aims to preserve as much of the vanilla experience as possible while also providing a link between the the playground and ChatGPT to enable a better developer experience.
+The project aims to preserve as much of the vanilla experience as possible while also providing a playground to develop a bespoke edition that mirrors the look & feel of ikigAI Labs XYZ and add knowledge specific to LiveTheLifeTV Art Magazine & Auction House. In essence this the the MVP and Training Grounds for the core ikigAI Labs app that has a more complex UI and a more sophisticated UX as it is build to be very good a a few very specific tasks with very specific context of our current AI & NFT repos on GitHub.
 
-As a side note, all API keys are encrypted and stored in your browser's local storage, so you can use this project without having to worry about your API key being stolen.
+## Challenges
+
+1/ write opensea or reservoir (pages/api) so that the AI can give me an overview of the 420 NFT collections we have curated the past few years. (common/data/collections)
+
+2/ write coingecko api so that we can ask the AI about market data, and go into detail for all things Ethereum. 
 
 
 ## Running Locally
@@ -19,4 +23,4 @@ This will start a local server on port 3000. You can then navigate to `localhost
 
 **This project is still in development! Contributions are very much appreciated!**
 
-If you would like to contribute to this project, please feel free to open a pull request or an issue, I hashed this project out in a few hours so there are bound to be some bugs!
+If you would like to contribute to this project, please feel free to open a pull request or an issue!

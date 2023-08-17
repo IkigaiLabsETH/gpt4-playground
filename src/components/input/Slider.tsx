@@ -1,5 +1,5 @@
 import React from "react";
-import { OpenAIConfig } from "@/utils/OpenAI";
+import { OpenAIConfig } from "src/utils/OpenAI";
 import ReactSlider from "react-slider";
 
 type Props = {

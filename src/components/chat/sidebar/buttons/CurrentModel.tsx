@@ -2,7 +2,7 @@ import React from "react";
 import { useOpenAI } from "@/context/OpenAIProvider";
 import Dropdown from "./../../../input/Dropdown";
 import useModels from "./../../../hooks/useModels";
-import { OpenAIConfig } from '@/utils/OpenAI';
+import { OpenAIConfig } from 'src/utils/OpenAI';
 
 type Props = {};
 

@@ -1,4 +1,4 @@
-import { OpenAIChatModels } from "@/utils/OpenAI";
+import { OpenAIChatModels } from "src/utils/OpenAI";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { OpenAIApi, Configuration } from "openai";
 

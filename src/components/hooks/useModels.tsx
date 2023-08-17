@@ -1,4 +1,4 @@
-import { OpenAIChatModels, OpenAIModel } from "@/utils/OpenAI";
+import { OpenAIChatModels, OpenAIModel } from "src/utils/OpenAI";
 import React from "react";
 import { useAuth } from "@/context/AuthProvider";
 
