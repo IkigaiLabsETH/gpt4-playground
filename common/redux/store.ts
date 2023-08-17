@@ -29,7 +29,6 @@ export const addAppListener = addListener as TypedAddListener<RootState, AppDisp
 
 const persistConfig = {
   key: 'root',
-  storage,
   whitelist: ['network'],
 }
 
