@@ -10,6 +10,9 @@
     --bg-secondary: 229, 231, 235;
     --bg-tertiary: 209, 213, 219;
     --font-primary: 'Boska', sans-serif; 
+    --yellow: #f2bd00;
+    --red: #f24822;
+    --teal: #00b5ce;
   }
 
   .dark {
